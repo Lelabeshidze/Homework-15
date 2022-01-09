@@ -66,14 +66,15 @@ for (let i = 0; i < array.length; i++) {
 console.log(secondlargest);
 
 let numbersarray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-let largestNumber = numbersarray[0];
+let largestN = numbersarray[0];
 let secondlargestn = numbersarray[0];
 for (let i = 0; i < numbersarray.length; i++) {
-    if (largestNumber < numbersarray[i] ) {
-        largestNumber = numbersarray[i];
+    if (largestN < numbersarray[i] ) {
+        largestN = numbersarray[i];
     } 
-    else if(numbersarray[i] > secondlargestn && numbersarray[i] !=largestNumber) 
+    else if(numbersarray[i] > secondlargestn && numbersarray[i] !=largestN ) 
         secondlargestn=numbersarray[i];
+    
 }
 console.log(secondlargestn);
 

@@ -2,27 +2,28 @@
 const currentDay = new Date().getDay()
 switch (currentDay) {
     case 0:
-        day = "Sunday";
+        dayname = "Sunday";
         break;
     case 1:
-        day = "Monday";
+        dayname = "Monday";
         break;
     case 2:
-        day = "Tuesday";
+        dayname = "Tuesday";
         break;
     case 3:
-    day = "Wednesday";
-    break;
+        dayname = "Wednesday";
+        break;
     case 4:
-        day = "Thursday";
+        dayname = "Thursday";
         break;
     case 5:
-    day = "Friday";
+        dayname = "Friday";
         break;
-        case 6:
-    day = "Saturday";
+    case 6:
+        dayname = "Saturday";
+        break;
 }
-console.log (day);
+console.log (dayname);
 
 // დავალება2
 for ( let i=0; i<100; i++) {
